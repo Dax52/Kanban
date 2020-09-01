@@ -1,0 +1,14 @@
+.table {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0079BF;
+
+}
+.block {
+    margin: 20px 16px auto 14px;
+    min-width: 282px;
+    min-height: 197px;
+    background: #EBECF0;
+    border-radius: 10px;
+}

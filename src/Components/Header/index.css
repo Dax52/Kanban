@@ -1,0 +1,23 @@
+.header {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0067A3;
+}
+.logo {
+    margin-left: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.user-menu {
+    margin-right: 16px;
+    width: 64px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
