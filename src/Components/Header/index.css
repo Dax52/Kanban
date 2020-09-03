@@ -21,3 +21,10 @@
     display: flex;
     align-items: center;
 }
+.user-menu__avatar {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.user-menu__arrow {
+    transform: rotate(180deg);
+}

@@ -1,14 +1,20 @@
 .table {
-    height: 90vh;
     display: flex;
     justify-content: space-between;
-    background-color: #0079BF;
-
+    flex-wrap: wrap;
 }
 .block {
     margin: 20px 16px auto 14px;
-    min-width: 282px;
-    min-height: 197px;
+    width: 282px;
+    /* min-height: 197px; */
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     background: #EBECF0;
     border-radius: 10px;
+}
+.block_title {
+    color: #000000;
 }
