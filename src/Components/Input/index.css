@@ -3,9 +3,16 @@
     width: 100%;
     min-height: 35px;
     padding: 7px 9px 7px 8px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+.input__hidden {
+    display: none;
+}
+.input__list {
+    background-image: url(../Header/arrow-down.svg);
+    background-position-x: right;
 }

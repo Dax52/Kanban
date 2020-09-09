@@ -1,20 +1,26 @@
 import React from 'react';
 import './index.css'
 
-class Input extends React.Component {
-    render () {
-      const { value, onChange } = this.props; 
-      return (
-          
-  
-          <input 
-              className='input'
-              type="text"
-              value={value}
-              onChange={onChange}
-          />
-      );
+function Input(props)  {
+    if (props.type === 0) {
+        return (
+            <input className='input' type="text"/>
+        )    
+        } else
+         {
+        return (
+              
+            <select className='input'>
+                <option className='input' disabled selected value></option>
+                {props.list.map(item => (
+                  <option key = {item.id} className='' value={item.id}>{item.title}</option>
+              ))}
+                      
+            </select>    
+            
+        );
     }
+    
   }
   
   
