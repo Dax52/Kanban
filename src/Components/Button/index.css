@@ -13,5 +13,6 @@
     background-color: #0079BF;
 }
 .btn:disabled {
-    cursor: none;
+    cursor: auto;
+    background-color: transparent;
 }

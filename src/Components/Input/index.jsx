@@ -2,26 +2,38 @@ import React from 'react';
 import './index.css'
 
 function Input(props)  {
-    if (props.type === 0) {
+    
+    if (props.activity) {
+        if (props.type === 0) {
+            return (
+                <input 
+                className='input' 
+                type="text" 
+                value={props.value}
+                onChange={props.onChange}
+                />
+            )    
+            } else {
+            return (
+                  
+                <select  className='input' onChange={props.onSelect}>
+                    <option key = 'disabled' className='input' disabled selected>Select issue</option>
+                    {props.list.map(item => (
+                      <option  key = {item.id} className='input' value={item.id}>{item.title}</option>
+                  ))}
+                          
+                </select>    
+                
+            );
+        }
+    } else {
         return (
-            <input className='input' type="text"/>
-        )    
-        } else
-         {
-        return (
-              
-            <select className='input'>
-                <option className='input' disabled selected value></option>
-                {props.list.map(item => (
-                  <option key = {item.id} className='' value={item.id}>{item.title}</option>
-              ))}
-                      
-            </select>    
-            
+            null
         );
     }
     
-  }
+   
+ 
+}
   
-  
-  export default Input;
+export default Input;
