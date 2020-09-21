@@ -17,6 +17,11 @@
 }
 .footer__counterblock {
     margin-left: 14px;
+    width: 333px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .footer__copyright {
     display: flex;

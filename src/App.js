@@ -9,7 +9,10 @@ function App() {
     <div className="App">
       <Header/>
       <Block/>
-      <Footer/>
+      <Footer
+        activeTasks='00'
+        finishedTasks='00'
+      />
     </div>
   );
 }

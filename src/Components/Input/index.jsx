@@ -11,13 +11,14 @@ function Input(props)  {
                 type="text" 
                 value={props.value}
                 onChange={props.onChange}
+                autoFocus={true}
                 />
             )    
             } else {
             return (
                   
                 <select  className='input' onChange={props.onSelect}>
-                    <option key = 'disabled' className='input' disabled selected>Select issue</option>
+                    <option key = 'disabled'  disabled selected>Select issue</option>
                     {props.list.map(item => (
                       <option  key = {item.id} className='input' value={item.id}>{item.title}</option>
                   ))}

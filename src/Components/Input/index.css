@@ -9,10 +9,10 @@
     align-items: center;
     justify-content: flex-start;
 }
+option {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
 .input__hidden {
     display: none;
-}
-.input__list {
-    background-image: url(../Header/arrow-down.svg);
-    background-position-x: right;
 }
