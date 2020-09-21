@@ -17,8 +17,8 @@ function Input(props)  {
             } else {
             return (
                   
-                <select  className='input' onChange={props.onSelect}>
-                    <option key = 'disabled'  disabled selected>Select issue</option>
+                <select  className='input' onChange={props.onSelect} defaultValue='default'>
+                    <option key = 'disabled'  disabled value='default'>Select issue</option>
                     {props.list.map(item => (
                       <option  key = {item.id} className='input' value={item.id}>{item.title}</option>
                   ))}
