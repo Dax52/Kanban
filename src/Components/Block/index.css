@@ -68,3 +68,16 @@
     
     overflow: auto;
 }
+
+@media only screen and (max-width: 1247px) {
+    .table {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block {
+        max-height: none;
+    }
+    .list {
+        max-height: none;
+    }
+}
