@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kanban/static/css/main.43a9d76d.chunk.css",
+    "main.css": "/Kanban/static/css/main.6d570301.chunk.css",
     "main.js": "/Kanban/static/js/main.6e1042f9.chunk.js",
     "main.js.map": "/Kanban/static/js/main.6e1042f9.chunk.js.map",
     "runtime-main.js": "/Kanban/static/js/runtime-main.342bd006.js",
@@ -8,9 +8,9 @@
     "static/js/2.2938adf3.chunk.js": "/Kanban/static/js/2.2938adf3.chunk.js",
     "static/js/2.2938adf3.chunk.js.map": "/Kanban/static/js/2.2938adf3.chunk.js.map",
     "index.html": "/Kanban/index.html",
-    "precache-manifest.faacec27b5610a3aa504559612e96646.js": "/Kanban/precache-manifest.faacec27b5610a3aa504559612e96646.js",
+    "precache-manifest.dd43bd1013510b3d0501f9e2900fc99c.js": "/Kanban/precache-manifest.dd43bd1013510b3d0501f9e2900fc99c.js",
     "service-worker.js": "/Kanban/service-worker.js",
-    "static/css/main.43a9d76d.chunk.css.map": "/Kanban/static/css/main.43a9d76d.chunk.css.map",
+    "static/css/main.6d570301.chunk.css.map": "/Kanban/static/css/main.6d570301.chunk.css.map",
     "static/js/2.2938adf3.chunk.js.LICENSE.txt": "/Kanban/static/js/2.2938adf3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Kanban/static/media/Group3.4f04ffa0.svg",
     "static/media/arrow-down.svg": "/Kanban/static/media/arrow-down.fe1990db.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.342bd006.js",
     "static/js/2.2938adf3.chunk.js",
-    "static/css/main.43a9d76d.chunk.css",
+    "static/css/main.6d570301.chunk.css",
     "static/js/main.6e1042f9.chunk.js"
   ]
 }
