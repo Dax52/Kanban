@@ -4,15 +4,6 @@ import Block from './Components/Block';
 
 import './App.css';
 
-// let active = 0;
-// let finished = 0;
-
-// function onUpdate (newactive,newfinished) {
-//     console.log ('опа',newactive,'закончено',newfinished);
-//     active = newactive;
-//     finished = newfinished;
-// }
-
 function App() {
   
 
