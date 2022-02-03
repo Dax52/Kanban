@@ -5,12 +5,10 @@ import Block from './Components/Block';
 import './App.css';
 
 function App() {
-  
-
   return (
     <div className="App">
-      <Header/>
-      <Block/>
+      <Header />
+      <Block />
     </div>
   );
 }
